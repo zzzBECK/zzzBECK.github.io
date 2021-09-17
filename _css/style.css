@@ -17,7 +17,7 @@ main{
     border-color: rgba(255, 251, 1, 0.993);
 }
 body{
-    background-image: url("_imagens/fundo.jpg");
+    background-image: url("../_imagens/fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
