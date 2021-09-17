@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Hack-Regular";
+    src: url("../_font/Hack-Regular.ttf");
+}
+main{
+    font-family: Hack-Regular;
+    width: 800px;
+    height: 1000px;
+    background-color: black;
+    color: rgba(255, 251, 1, 0.993);
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 20px;
+    border-color: rgba(255, 251, 1, 0.993);
+}
+body{
+    background-image: url("../_imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main h1, h2{
+    text-align: center;
+}
+.conhecimentos li{
+    display: inline;
+    margin-inline-end: 20px;
+    color: rgba(100, 107, 8, 0.993);
+}
+p#paragrafo{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.introduçao strong{
+    font-size: large;
+    color: rgba(255, 251, 1, 0.993);
+}
+.formaçao strong{
+    font-size: large;
+    color: rgba(255, 251, 1, 0.993);
+}
+.formaçao li{
+    color: rgba(100, 107, 8, 0.993);
+    height: 30px;
+}
+.formaçao li#center{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+    border-style: solid;
+    border-color: rgba(255, 251, 1, 0.993);
+}
+p{
+    color: rgba(100, 107, 8, 0.993);
+}
+figure{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgba(100, 107, 8, 0.993);
+}
+a:hover{
+    text-decoration: underline;
+    color: rgba(255, 251, 1, 0.993);
+}
+.redesSociais{
+    margin-top: 50px;
+    block-size: 50px;
+    width: 6%;
+    display: inline-block;
+    margin-inline-start: 300px;
+    margin-inline-end: -250px;
+}
