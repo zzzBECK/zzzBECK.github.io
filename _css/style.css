@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
     font-family: "Hack-Regular";
-    src: url("../_font/Hack-Regular.ttf");
+    src: url("_font/Hack-Regular.ttf");
 }
 main{
     font-family: Hack-Regular;
@@ -17,7 +17,7 @@ main{
     border-color: rgba(255, 251, 1, 0.993);
 }
 body{
-    background-image: url("../_imagens/fundo.jpg");
+    background-image: url("_imagens/fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
