@@ -6,7 +6,7 @@
 main{
     font-family: Hack-Regular;
     width: 800px;
-    height: 1000px;
+    height: 1050px;
     background-color: black;
     color: rgba(255, 251, 1, 0.993);
     margin-left: auto;
@@ -25,9 +25,11 @@ body{
     text-align: center;
 }
 .conhecimentos li{
-    display: inline;
+    display: inline-block;   
     margin-inline-end: 20px;
     color: rgba(100, 107, 8, 0.993);
+    text-align: center;
+    margin-inline-start:4%;
 }
 p#paragrafo{
     margin-left: 35px;
@@ -70,10 +72,10 @@ a:hover{
     color: rgba(255, 251, 1, 0.993);
 }
 .redesSociais{
-    margin-top: 50px;
+    margin-top: 5px;
     block-size: 50px;
     width: 6%;
     display: inline-block;
-    margin-inline-start: 300px;
-    margin-inline-end: -250px;
+    margin-inline-start: 39%;
+    margin-inline-end: -30%;
 }
