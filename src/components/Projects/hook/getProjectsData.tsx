@@ -5,7 +5,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { SiDart, SiFlutter, SiPostgresql, SiStyledcomponents } from "react-icons/si";
 import { TbBrandFigma, TbBrandJavascript, TbBrandTypescript } from "react-icons/tb";
 
-export function useGetData() {
+export function useGetProjectsData() {
     const { t } = useTranslation();
 
     const projectsData: Project[] = [
@@ -113,5 +113,5 @@ export function useGetData() {
         }
     ];
 
-    return projectsData;
+    return { projectsData };
 }

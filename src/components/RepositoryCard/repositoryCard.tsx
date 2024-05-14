@@ -14,7 +14,7 @@ import {
 import { Skeleton } from "../ui/skeleton";
 
 interface RepositoryCardProps {
-    project: GitProject;
+    project?: GitProject;
     loading: boolean;
 }
 
@@ -41,14 +41,14 @@ export function RepositoryCard({ project, loading }: RepositoryCardProps) {
                         <Skeleton className="min-h-[32px] w-3/4" />
                     ) : (
                         <span className="w-full text-2xl font-semibold min-h-[32px] break-words text-center mb-4">
-                            {project.name}
+                            {project?.name}
                         </span>
                     )}
                     {loading ? (
                         <Skeleton className="min-h-[160px] max-h-[160px] w-full" />
                     ) : (
                         <CardDescription className="min-h-[160px] max-h-[160px] overflow-y-auto">
-                            {project.description}
+                            {project?.description}
                         </CardDescription>
                     )}
                 </CardContent>
@@ -56,7 +56,7 @@ export function RepositoryCard({ project, loading }: RepositoryCardProps) {
                     {loading ? (
                         <Skeleton className="w-full h-10" />
                     ) : (
-                        <a className="w-full" href={project.html_url} target="_blank">
+                        <a className="w-full" href={project?.html_url} target="_blank">
                             <Button className="w-full flex">
                                 <Link className="mr-2 h-4 w-4" /> Link
                             </Button>

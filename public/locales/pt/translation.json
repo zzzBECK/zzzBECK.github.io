@@ -1,4 +1,9 @@
 {
+  "about": {
+    "first": "👋 Prazer! Sou Alexandre Beck, desenvolvedor Full-Stack com ampla experiência em diversas linguagens de programação. Possuo habilidades em desenvolvimento web e criação de aplicativos.",
+    "second": "💻 Estudante de Engenharia de Software na Universidade de Brasília, sempre fui apaixonado por tecnologia. Comecei a desenvolver no início de 2021 durante o curso de Ciências da Computação no CEUB. Após um ano, troquei para Engenharia de Software, pois me identifico mais com essa área e desejo me aprofundar nos conceitos e aplicá-los na prática.",
+    "third": "🚀 Se você busca um desenvolvedor web que possa levar sua empresa ao próximo nível, estou à disposição. Minha dedicação à excelência, aliada às minhas ideias, habilidades técnicas e constante vontade de aprender e inovar, me tornam um parceiro valioso para qualquer projeto. Vamos transformar suas ideias em realidade juntos!"
+  },
   "aboutMe": "Sobre mim",
   "academicProject": "Projeto Acadêmico",
   "allRepositories": "Todos os repositórios",
@@ -6,6 +11,7 @@
   "contact": "Contato",
   "copiedEmail": "Email copiado!",
   "errorCopying": "Erro ao copiar e-mail!",
+  "experience": "Experiência",
   "freelanceProject": "Projeto Freelance",
   "home": "Início",
   "mainProjects": "Projetos principais",
@@ -30,5 +36,24 @@
   },
   "repository": "Repositório",
   "skills": "Conhecimentos ",
-  "welcome": "Bem vindo!"
+  "skillsData": {
+    "bootstrap": "Bootstrap é um framework CSS popular para desenvolver websites responsivos e mobile-first. Ele fornece uma coleção de componentes e utilitários pré-desenhados, facilitando o design e a personalização de interfaces web",
+    "docker": "Docker é uma plataforma para desenvolver, enviar e executar aplicações em containers. Ela simplifica o processo de implantação de aplicações ao empacotá-las com todas as suas dependências, garantindo consistência em diferentes ambientes",
+    "express": "Express.js é um framework minimalista e flexível para aplicações web em Node.js que oferece um conjunto robusto de recursos para construir aplicações web e móveis. Ele é conhecido por sua simplicidade e facilidade de uso na criação de aplicações do lado do servidor",
+    "figma": "Figma é uma ferramenta de design baseada na web usada para design de UI/UX, prototipagem e colaboração. Ela permite que múltiplos designers trabalhem no mesmo projeto simultaneamente e oferece uma variedade de recursos de design e prototipagem",
+    "flutter": "Flutter é um kit de ferramentas de desenvolvimento de UI de código aberto criado pelo Google. Ele é usado para construir aplicações compiladas nativamente para dispositivos móveis, web e desktop a partir de uma única base de código, oferecendo um processo de desenvolvimento rápido e componentes de UI expressivos",
+    "javascript": "JavaScript é uma linguagem de programação versátil usada principalmente para criar conteúdo interativo e dinâmico na web. É uma tecnologia essencial para o desenvolvimento front-end e também é usada no desenvolvimento do lado do servidor com ambientes como Node.js",
+    "jest": "Jest é uma biblioteca de testes JavaScript encantadora com foco na simplicidade. Ela proporciona uma ótima experiência de desenvolvimento com recursos como configuração zero, testes de snapshot e uma API extensa para testar aplicações JavaScript",
+    "mongo": "MongoDB é um banco de dados NoSQL conhecido por sua flexibilidade e escalabilidade. Ele armazena dados em um formato semelhante a JSON, permitindo esquemas dinâmicos e fácil integração com aplicações que requerem desenvolvimento rápido e iterativo",
+    "nest": "Nest.js é um framework progressivo para Node.js destinado à construção de aplicações do lado do servidor eficientes, confiáveis e escaláveis. Ele utiliza TypeScript por padrão e é fortemente inspirado no Angular, promovendo o uso de arquitetura modular e decoradores",
+    "node": "Node.js é um ambiente de execução JavaScript de código aberto para executar código no lado do servidor. Ele é ideal para construir aplicações de rede escaláveis e de alta performance, utilizando uma arquitetura orientada a eventos e não bloqueante",
+    "postgree": "PostgreSQL é um sistema de banco de dados objeto-relacional poderoso e de código aberto, conhecido por sua robustez, extensibilidade e conformidade com os padrões SQL. Ele suporta tipos de dados avançados e recursos de otimização de desempenho",
+    "react": "React.js é uma biblioteca JavaScript para construir interfaces de usuário. Ela permite que desenvolvedores criem componentes de UI reutilizáveis, gerenciem o estado de forma eficiente e renderizem mudanças dinamicamente. Conhecida por seu DOM virtual e arquitetura baseada em componentes, o React.js simplifica o processo de construção de aplicações web complexas e de alto desempenho",
+    "styled": "Styled Components é uma biblioteca para React e React Native que permite aos desenvolvedores usar estilos ao nível de componentes em suas aplicações. Ela utiliza literais de template marcados para estilizar componentes de forma eficiente e promove CSS modular",
+    "tailwind": "Tailwind CSS é um framework de CSS orientado a utilitários que fornece classes utilitárias de baixo nível para construir designs personalizados sem sair do arquivo HTML. Ele permite um desenvolvimento rápido de interfaces de usuário com uma configuração altamente personalizável",
+    "typescript": "TypeScript é um superconjunto tipado de JavaScript que compila para JavaScript puro. Ele oferece verificação de tipos estáticos, o que ajuda a identificar erros durante o desenvolvimento e melhora a qualidade e a manutenibilidade do código"
+  },
+  "welcome": "Bem vindo!",
+  "year": "ano",
+  "years": "anos"
 }

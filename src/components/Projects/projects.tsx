@@ -14,7 +14,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "../ui/carousel";
-import { useGetData } from "./hook/getData";
+import { useGetProjectsData } from "./hook/getProjectsData";
 
 const url = "https://api.github.com/users/zzzBECK/repos";
 
@@ -24,7 +24,7 @@ export function Projects() {
     const [isLoading, setLoading] = useState(true);
     const { t } = useTranslation();
 
-    const projectsData = useGetData();
+    const { projectsData } = useGetProjectsData();
 
     const fetchRepositories = async () => {
         setLoading(true);
@@ -98,7 +98,7 @@ export function Projects() {
                     ]}
                 >
                     <CarouselContent className="ml-1 min-h-[434px]">
-                        {projects &&
+                        {projects ?
                             projects.map((project, index) => (
                                 <CarouselItem
                                     key={index}
@@ -108,7 +108,18 @@ export function Projects() {
                                         <RepositoryCard project={project} loading={isLoading} />
                                     </div>
                                 </CarouselItem>
-                            ))}
+                            )) :
+                            [...Array(6)].map((_, index) => (
+                                <CarouselItem
+                                    key={index}
+                                    className="pl-1 md:basis-1/2 lg:basis-1/3"
+                                >
+                                    <div className="p-1 h-full">
+                                        <RepositoryCard loading={true} />
+                                    </div>
+                                </CarouselItem>
+                            ))
+                        }
                     </CarouselContent>
                     <CarouselPrevious />
                     <CarouselNext />
