@@ -97,7 +97,7 @@ export function Projects() {
                         }),
                     ]}
                 >
-                    <CarouselContent className="ml-1">
+                    <CarouselContent className="ml-1 min-h-[434px]">
                         {projects &&
                             projects.map((project, index) => (
                                 <CarouselItem

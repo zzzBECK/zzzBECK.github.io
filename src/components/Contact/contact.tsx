@@ -36,7 +36,7 @@ export function Contact() {
 
     return (
         <section
-            className="flex h-auto w-full px-4 md:px-12 lg:px-24 xl:px-52 my-24"
+            className="flex h-auto w-full px-4 md:px-12 lg:px-24 xl:px-52 mb-24"
             id="Contato"
         >
             <div className="flex flex-col lg:flex-row w-full h-fit gap-6 items-center md:items-start">
