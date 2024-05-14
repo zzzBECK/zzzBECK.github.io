@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { About } from "./components/About/about";
 import { Contact } from "./components/Contact/contact";
 import { Header } from "./components/Header/header";
@@ -11,16 +12,18 @@ import { Toaster } from "./components/ui/sonner";
 function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <main className="w-screen min-h-screen flex flex-col">
-        <Header />
-        <Introduction />
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-        <ParticleLight />
-        <Toaster />
-      </main>
+      <Suspense fallback={<div>Loading...</div>}>
+        <main className="w-screen min-h-screen flex flex-col">
+          <Header />
+          <Introduction />
+          <About />
+          <Projects />
+          <Skills />
+          <Contact />
+          <ParticleLight />
+          <Toaster />
+        </main>
+      </Suspense>
     </ThemeProvider>
   );
 }
