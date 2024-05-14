@@ -259,7 +259,7 @@ export function Header() {
                         },
                     },
                     closed: {
-                        clipPath: "inset(10% 20% 90% 80% round 10px)",
+                        clipPath: "inset(10% 90% 90% 0% round 10px)",
                         transition: {
                             type: "spring",
                             bounce: 0,
@@ -295,6 +295,16 @@ export function Header() {
                     }}
                     className="flex flex-col gap-3 p-4 list-none"
                 >
+                    <motion.li
+                        variants={{
+                            open: { opacity: 1, x: 0 },
+                            closed: { opacity: 0, x: -20 },
+                        }}
+                    >
+                        <a className="block" onClick={() => scrollToComponent("Introducao")}>
+                            {t("home")}
+                        </a>
+                    </motion.li>
                     <motion.li
                         variants={{
                             open: { opacity: 1, x: 0 },
