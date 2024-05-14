@@ -27,11 +27,11 @@ export function RepositoryCard({ project, loading }: RepositoryCardProps) {
             layout
             className="max-h-[434px]"
         >
-            <Card>
+            <Card className="max-h-[434px] h-full flex flex-col justify-between">
                 <CardHeader className="pb-0 min-h-[46px]">
                     {!loading && project?.fork && <Badge className="w-fit">Fork</Badge>}
                 </CardHeader>
-                <CardContent className="flex flex-col items-center justify-center p-6 text-justify gap-4">
+                <CardContent className="flex flex-col w-full items-center justify-center p-6 text-justify gap-4 overflow-y-hidden flex-grow">
                     {loading ? (
                         <Skeleton className="min-h-[50px] w-[50px] rounded-full" />
                     ) : (
@@ -40,19 +40,19 @@ export function RepositoryCard({ project, loading }: RepositoryCardProps) {
                     {loading ? (
                         <Skeleton className="min-h-[32px] w-3/4" />
                     ) : (
-                        <span className="text-2xl font-semibold min-h-[32px]">
+                        <span className="w-full text-2xl font-semibold min-h-[32px] break-words text-center mb-4">
                             {project.name}
                         </span>
                     )}
                     {loading ? (
                         <Skeleton className="min-h-[160px] max-h-[160px] w-full" />
                     ) : (
-                        <CardDescription className="min-h-[160px] max-h-[160px]">
+                        <CardDescription className="min-h-[160px] max-h-[160px] overflow-y-auto">
                             {project.description}
                         </CardDescription>
                     )}
                 </CardContent>
-                <CardFooter>
+                <CardFooter className="flex-shrink-0">
                     {loading ? (
                         <Skeleton className="w-full h-10" />
                     ) : (
