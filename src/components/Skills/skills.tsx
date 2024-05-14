@@ -6,11 +6,14 @@ import { SkillCard } from "../SkillCard/skillCard";
 import { Badge } from "../ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../ui/carousel";
 import { useGetSkillsData } from "./hooks/getSkillsData";
+import { useRef } from "react";
+import useIsVisible from "./hooks/isVisible";
 
 export function Skills() {
     const { t } = useTranslation();
-
     const { skillsData } = useGetSkillsData();
+    const carouselRef = useRef(null);
+    const isVisible = useIsVisible(carouselRef);
 
     return (
         <section
@@ -25,12 +28,17 @@ export function Skills() {
 
                 <Carousel
                     className="w-full my-10"
-                    plugins={[
-                        Autoplay({
-                            delay: 3500,
-                            stopOnInteraction: false,
-                        }),
-                    ]}
+                    ref={carouselRef}
+                    plugins={
+                        isVisible
+                            ? [
+                                Autoplay({
+                                    delay: 3500,
+                                    stopOnInteraction: false,
+                                }),
+                            ]
+                            : []
+                    }
                 >
                     <CarouselContent className="ml-1">
                         {
