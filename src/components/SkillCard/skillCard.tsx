@@ -1,25 +1,26 @@
 import { cn } from "@/lib/utils";
+import { Skill } from "@/types/skill-card";
 import {
     Card,
     CardContent,
     CardDescription
 } from "../ui/card";
-import { FaReact } from "react-icons/fa";
 import { Progress } from "../ui/progress";
 type CardProps = React.ComponentProps<typeof Card>;
 
-export function SkillCard({ className, ...props }: CardProps) {
+export function SkillCard({ className, title, description, Icon, ...props }: CardProps & Skill) {
 
     return (
         <Card className={cn("w-full h-fit", className)} {...props}>
-            <CardContent className="flex flex-col min-h-[16em] justify-center gap-2 px-4 py-14">
-                <div className="flex w-full items-center">
-                    <div className="w-2/4 md:w-1/4">
-                        <FaReact size={80} />
+            <CardContent className="flex flex-col min-h-[16em] justify-center gap-2 px-10 py-14">
+                <div className="flex flex-col 2xl:flex-row w-full items-center gap-4">
+                    <Icon size={80} className="min-w-14 max-w-fit" />
+                    <div className="flex flex-col w-auto gap-3">
+                        <h1 className="text-4xl text-center 2xl:text-start">{title}</h1>
+                        <CardDescription className="text-justify">{description}</CardDescription>
+                        <Progress value={13} className="w-full" />
                     </div>
-                    <CardDescription className="w-3/4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque tempora quia nisi, exercitationem consequatur repellendus quaerat eveniet molestias debitis totam dolore error aliquid excepturi ipsum alias possimus voluptatibus. Illo, distinctio!</CardDescription>
                 </div>
-                <Progress value={13} className="w-full" />
             </CardContent>
         </Card>
     );

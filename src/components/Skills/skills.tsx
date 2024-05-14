@@ -5,6 +5,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { SkillCard } from "../SkillCard/skillCard";
 import { Badge } from "../ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../ui/carousel";
+import { FaReact } from "react-icons/fa";
 
 export function Skills() {
     const { t } = useTranslation();
@@ -36,7 +37,7 @@ export function Skills() {
                                     className="pl-1 basis-full md:basis-1/2 lg:basis-1/3"
                                 >
                                     <div className="p-1 h-full">
-                                        <SkillCard />
+                                        <SkillCard title="React" description="lorem pl-1 basis-full md:basis-1/2 lg:basis-1/3 pl-1 basis-full md:basis-1/2 lg:basis-1/3" Icon={FaReact} />
                                     </div>
                                 </CarouselItem>
                             ))}
