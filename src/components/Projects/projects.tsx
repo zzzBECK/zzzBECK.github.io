@@ -94,6 +94,7 @@ export function Projects() {
                     plugins={[
                         Autoplay({
                             delay: isLoading ? 3000 : 2000,
+                            stopOnInteraction: false,
                         }),
                     ]}
                 >

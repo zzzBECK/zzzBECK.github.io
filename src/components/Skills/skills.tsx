@@ -27,7 +27,8 @@ export function Skills() {
                     className="w-full my-10"
                     plugins={[
                         Autoplay({
-                            delay: 5000,
+                            delay: 3500,
+                            stopOnInteraction: false,
                         }),
                     ]}
                 >
