@@ -26,7 +26,7 @@ export function SkillCard({
                         <CardDescription className="text-justify min-h-[140px]">
                             {description}
                         </CardDescription>
-                        <Progress value={(years / 3) * 100} className="w-full" />
+                        <Progress value={(years / 4) * 100} className="w-full" />
                         <CardDescription className="text-center m-0 p-0">{`${t(
                             "experience"
                         )}: ${formatValue(years, { decimalPlace: 1 })} ${years === 1 ? t("year") : t("years")
