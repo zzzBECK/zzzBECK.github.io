@@ -17,21 +17,25 @@
   "mainProjects": "Projetos principais",
   "projects": "Projetos",
   "projectsData": {
-    "bizuDaAprovacao": {
-      "description": "Primeira experiência de um projeto real utilzando React/Next.js, onde o site foi utilizado para inscrição do curso 'Bizu da Aprovação' do Patrulheiro Jota",
-      "title": "Bizu da Aprovação"
-    },
     "brasequip": {
-      "description": "Desenvolvimento de um WebSite Institucional para a empresa Brasequip, utilizando React.js/Vite.js com Typescript e Figma para prototipação, com a metodologia RAD",
+      "description": "Site desenvolvido para a empresa Brasequip, usando a metodologia RAD para prototipação. O projeto visa aprimorar o SEO, promover a empresa e seus serviços, e facilitar o contato com os clientes",
       "title": "Brasequip"
     },
     "fearAndHunger": {
-      "description": "Desenvolvimento de um MMORPG web, em equipe de 4 desenvolvedores, utilizando Vite.js para o front-end, Express.js para o back- end com banco de dados relacional, gerenciador PostegreSQL e Docker",
+      "description": "Desenvolvimento de um MMORPG web com o intuito de aplicar e desenvolver conhecimentos em bancos de dados realacionais. Projeto da disciplina de Banco de Dados 1",
       "title": "Fear & Hunger"
     },
     "guiaUnB": {
-      "description": "Desenvolvimento de um aplicativo móvel em Dart com Flutter e Firabase, em equipe de 6 desenvolvedores para informar alunos da UnB sobre direitos estudantis",
+      "description": "Aplicativo móvel desenvolvido com o objetivo de informar os alunos da Universidade de Brasília (UnB) sobre seus direitos como estudantes. Projeto da disciplina Métodos de Desenvolvimento de Software",
       "title": "Guia UnB"
+    },
+    "iucai": {
+      "description": "Site desenvolvido para o Instituto Univesitário de São Tomé e Príncipe, com o objetivo de divulgar a instituição e seus cursos. Foi feito a partir de um template do Figma. Possui as versões: 'Português são-tomense' e 'Inglês'",
+      "title": "IUCAI"
+    },
+    "mec": {
+      "description": "Site desenvolvido para consultora do MEC, com o objetivo de auxiliar no cálculo de indicadores para estudos sobre a educação pública em todo o Brasil",
+      "title": "Consultora MEC"
     }
   },
   "repository": "Repositório",
@@ -55,5 +59,8 @@
   },
   "welcome": "Bem vindo!",
   "year": "ano",
-  "years": "anos"
+  "years": "anos",
+  "light": "Claro",
+  "dark": "Escuro",
+  "auto": "Automático"
 }

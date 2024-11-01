@@ -17,21 +17,25 @@
   "mainProjects": "Main projects",
   "projects": "Projects",
   "projectsData": {
-    "bizuDaAprovacao": {
-      "description": "First real project experience using React/Next.js, where the site was used for the 'Bizu da Aprovação' course registration by Patrulheiro Jota",
-      "title": "Bizu da Aprovação"
-    },
     "brasequip": {
-      "description": "Development of an Institutional Website for Brasequip using React.js/Vite.js with TypeScript and Figma for prototyping, with RAD methodology",
+      "description": "Website developed for Brasequip using the RAD methodology for prototyping. The project aims to improve SEO, promote the company and its services, and facilitate customer contact",
       "title": "Brasequip"
     },
     "fearAndHunger": {
-      "description": "Development of a web MMORPG by a team of 4 developers using Vite.js for the frontend, Express.js for the backend with PostgreSQL database management, and Docker",
+      "description": "Development of a web-based MMORPG aimed at applying and expanding knowledge in relational databases. Project for the Database 1 course",
       "title": "Fear & Hunger"
     },
     "guiaUnB": {
-      "description": "Development of a mobile app in Dart with Flutter and Firebase by a team of 6 developers to inform UnB students about student rights",
-      "title": "Guia UnB"
+      "description": "Mobile application developed to inform students at the University of Brasília (UnB) about their rights as students. Project for the Software Development Methods course",
+      "title": "UnB Guide"
+    },
+    "iucai": {
+      "description": "Website developed for the University Institute of São Tomé and Príncipe to promote the institution and its courses. It was based on a Figma template and built using Next.js and Tailwind CSS",
+      "title": "IUCAI"
+    },
+    "mec": {
+      "description": "Website developed for an MEC consultant, aimed at assisting in the calculation of indicators for public education studies across Brazil",
+      "title": "MEC consultant"
     }
   },
   "repository": "Repository",
@@ -55,5 +59,8 @@
   },
   "welcome": "Welcome!",
   "year": "year",
-  "years": "years"
+  "years": "years",
+  "light": "Light",
+  "dark": "Dark",
+  "auto": "Auto"
 }
