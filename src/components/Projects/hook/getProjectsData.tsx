@@ -3,17 +3,17 @@ import { useTranslation } from "react-i18next";
 import { FaDocker, FaNodeJs, FaReact } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import {
-  SiDart,
-  SiFlutter,
-  SiI18Next,
-  SiPostgresql,
-  SiStyledcomponents,
-  SiTailwindcss,
+    SiDart,
+    SiFlutter,
+    SiI18Next,
+    SiPostgresql,
+    SiStyledcomponents,
+    SiTailwindcss,
 } from "react-icons/si";
 import {
-  TbBrandFigma,
-  TbBrandJavascript,
-  TbBrandTypescript,
+    TbBrandFigma,
+    TbBrandJavascript,
+    TbBrandTypescript,
 } from "react-icons/tb";
 
 export function useGetProjectsData() {
@@ -50,6 +50,7 @@ export function useGetProjectsData() {
       title: t("projectsData.mec.title"),
       image: "mec.png",
       description: t("projectsData.mec.description"),
+      repositoryLink: "https://github.com/zzzBECK/validation-forms",
       projectLink: "https://zzzbeck.github.io/validation-forms",
       badges: [
         {
