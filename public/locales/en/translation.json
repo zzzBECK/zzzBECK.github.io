@@ -36,6 +36,18 @@
     "mec": {
       "description": "Website developed for an MEC consultant, aimed at assisting in the calculation of indicators for public education studies across Brazil",
       "title": "MEC consultant"
+    },
+    "minamualanon": {
+      "description": "Website created for the social project, focused on promoting its actions and supporting menstruation education in São Tomé and Príncipe.",
+      "title": "MINA MUALA NÓN"
+    },
+    "echoeasy": {
+      "description": "Mobile app and web platform designed to centralize the client’s (Echocardiographer) original content, streamlining the diagnosis of various cardiovascular diseases through echocardiography.",
+      "title": "Echoeasy"
+    },
+    "songz": {
+      "description": "Songz is a project developed for the Algorithms Design course, aimed at exploring graph theory concepts applied to a music recommendation system.",
+      "title": "Songz"
     }
   },
   "repository": "Repository",

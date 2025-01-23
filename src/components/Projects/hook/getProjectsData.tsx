@@ -3,17 +3,20 @@ import { useTranslation } from "react-i18next";
 import { FaDocker, FaNodeJs, FaReact } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import {
-    SiDart,
-    SiFlutter,
-    SiI18Next,
-    SiPostgresql,
-    SiStyledcomponents,
-    SiTailwindcss,
+  SiDart,
+  SiExpo,
+  SiFlutter,
+  SiI18Next,
+  SiMongodb,
+  SiNestjs,
+  SiPostgresql,
+  SiStyledcomponents,
+  SiTailwindcss,
 } from "react-icons/si";
 import {
-    TbBrandFigma,
-    TbBrandJavascript,
-    TbBrandTypescript,
+  TbBrandFigma,
+  TbBrandJavascript,
+  TbBrandTypescript,
 } from "react-icons/tb";
 
 export function useGetProjectsData() {
@@ -21,6 +24,87 @@ export function useGetProjectsData() {
 
   const projectsData: Project[] = [
     {
+      id: 1,
+      type: "university",
+      title: t("projectsData.songz.title"),
+      image: "songz.png",
+      description: t("projectsData.songz.description"),
+      projectLink: "https://grafos-songz.vercel.app",
+      repositoryLink: "https://github.com/zzzBECK/grafos-songz",
+      badges: [
+        {
+          text: "Next.js",
+          icon: FaReact,
+        },
+        {
+          text: "Typescript",
+          icon: TbBrandTypescript,
+        },
+        {
+          text: "Tailwind",
+          icon: SiTailwindcss,
+        },
+      ],
+    },
+    {
+      id: 2,
+      type: "freelance",
+      title: t("projectsData.minamualanon.title"),
+      image: "minamualanon.png",
+      description: t("projectsData.minamualanon.description"),
+      projectLink: "https://www.minamualanon.com",
+      badges: [
+        {
+          text: "Next.js",
+          icon: FaReact,
+        },
+        {
+          text: "Typescript",
+          icon: TbBrandTypescript,
+        },
+        {
+          text: "Tailwind",
+          icon: SiTailwindcss,
+        },
+      ],
+    },
+    {
+      id: 3,
+      type: "university",
+      title: t("projectsData.echoeasy.title"),
+      image: "echoeasy.png",
+      description: t("projectsData.echoeasy.description"),
+      projectLink: "https://mdsreq-fga-unb.github.io/2024.1-Echoeasy/#/",
+      repositoryLink: "https://github.com/mdsreq-fga-unb/2024.1-Echoeasy",
+      badges: [
+        {
+          text: "Next.js",
+          icon: FaReact,
+        },
+        {
+          text: "Nest.js",
+          icon: SiNestjs,
+        },
+        {
+          text: "Native",
+          icon: FaReact,
+        },
+        {
+          text: "Expo",
+          icon: SiExpo,
+        },
+        {
+          text: "MongoDB",
+          icon: SiMongodb,
+        },
+        {
+          text: "Firebase",
+          icon: IoLogoFirebase,
+        },
+      ],
+    },
+    {
+      id: 4,
       type: "freelance",
       title: t("projectsData.iucai.title"),
       image: "iucai.png",
@@ -46,6 +130,7 @@ export function useGetProjectsData() {
       ],
     },
     {
+      id: 5,
       type: "freelance",
       title: t("projectsData.mec.title"),
       image: "mec.png",
@@ -68,6 +153,7 @@ export function useGetProjectsData() {
       ],
     },
     {
+      id: 6,
       type: "freelance",
       title: t("projectsData.brasequip.title", "Brasequip"),
       image: "brasequip.png",
@@ -96,6 +182,7 @@ export function useGetProjectsData() {
       ],
     },
     {
+      id: 7,
       type: "university",
       title: t("projectsData.fearAndHunger.title", "Fear & Hunger"),
       image: "fear-hunger.png",
@@ -133,6 +220,7 @@ export function useGetProjectsData() {
       ],
     },
     {
+      id: 8,
       type: "university",
       title: t("projectsData.guiaUnB.title", "Guia UnB"),
       image: "guia-unb.png",

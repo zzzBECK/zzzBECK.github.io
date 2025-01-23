@@ -36,6 +36,18 @@
     "mec": {
       "description": "Site desenvolvido para consultora do MEC, com o objetivo de auxiliar no cálculo de indicadores para estudos sobre a educação pública em todo o Brasil",
       "title": "Consultora MEC"
+    },
+    "minamualanon": {
+      "description": "Site criado para o projeto social, focado na divulgação de suas ações e no apoio à educação sobre menstruação em São Tomé e Príncipe.",
+      "title": "MINA MUALA NÓN"
+    },
+    "echoeasy": {
+      "description": "Aplicativo e plataforma web com o intuito de agrupar os conteúdos autorais da cliente (Ecocardiogafista) facilitando o diagnóstico por meio do ecocardiograma das mais diversas doenças cardiovasculares",
+      "title": "Echoeasy"
+    },
+    "songz": {
+      "description": "Songz é um projeto desenvolvido para a disciplina de Projeto de Algoritmos, com o objetivo de explorar conceitos de teoria dos grafos aplicados a um sistema de recomendação de músicas.",
+      "title": "Songz"
     }
   },
   "repository": "Repositório",

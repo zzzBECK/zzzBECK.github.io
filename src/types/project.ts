@@ -1,4 +1,5 @@
 export interface Project {
+  id?: number;
   type: "freelance" | "university";
   title: string;
   image: string;
