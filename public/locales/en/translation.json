@@ -48,6 +48,10 @@
     "songz": {
       "description": "Songz is a project developed for the Algorithms Design course, aimed at exploring graph theory concepts applied to a music recommendation system.",
       "title": "Songz"
+    },
+    "sportickets": {
+      "description": "Platform developed for selling tickets to sports events. The project was created for clients in Brasília who organize sports events",
+      "title": "Sportickets"
     }
   },
   "repository": "Repository",

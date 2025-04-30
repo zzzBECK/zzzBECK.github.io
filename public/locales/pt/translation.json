@@ -48,6 +48,10 @@
     "songz": {
       "description": "Songz é um projeto desenvolvido para a disciplina de Projeto de Algoritmos, com o objetivo de explorar conceitos de teoria dos grafos aplicados a um sistema de recomendação de músicas.",
       "title": "Songz"
+    },
+    "sportickets": {
+      "description": "Plataforma desenvolvida para a venda de ingressos para eventos esportivos. O projeto foi realizado para clientes de Brasília que organizam eventos esportivos",
+      "title": "Sportickets"
     }
   },
   "repository": "Repositório",

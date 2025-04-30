@@ -1,6 +1,6 @@
 import { Project } from "@/types/project";
 import { useTranslation } from "react-i18next";
-import { FaDocker, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import {
   SiDart,
@@ -10,19 +10,51 @@ import {
   SiMongodb,
   SiNestjs,
   SiPostgresql,
+  SiPrisma,
+  SiRedis,
   SiStyledcomponents,
   SiTailwindcss,
 } from "react-icons/si";
-import {
-  TbBrandFigma,
-  TbBrandJavascript,
-  TbBrandTypescript,
-} from "react-icons/tb";
+import { TbBrandFigma, TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
 
 export function useGetProjectsData() {
   const { t } = useTranslation();
 
   const projectsData: Project[] = [
+    {
+      id: 7,
+      type: "freelance",
+      title: t("projectsData.sportickets.title"),
+      image: "sportickets.png",
+      description: t("projectsData.sportickets.description"),
+      projectLink: "https://beta.sportickets.com.br",
+      badges: [
+        {
+          text: "Next.js",
+          icon: TbBrandNextjs,
+        },
+        {
+          text: "Tailwind",
+          icon: SiTailwindcss,
+        },
+        {
+          text: "Nest.js",
+          icon: SiNestjs,
+        },
+        {
+          text: "Prisma",
+          icon: SiPrisma,
+        },
+        {
+          text: "Redis",
+          icon: SiRedis,
+        },
+        {
+          text: "Postgre",
+          icon: SiPostgresql,
+        },
+      ],
+    },
     {
       id: 1,
       type: "university",
@@ -34,7 +66,7 @@ export function useGetProjectsData() {
       badges: [
         {
           text: "Next.js",
-          icon: FaReact,
+          icon: TbBrandNextjs,
         },
         {
           text: "Typescript",
@@ -56,7 +88,7 @@ export function useGetProjectsData() {
       badges: [
         {
           text: "Next.js",
-          icon: FaReact,
+          icon: TbBrandNextjs,
         },
         {
           text: "Typescript",
@@ -79,7 +111,7 @@ export function useGetProjectsData() {
       badges: [
         {
           text: "Next.js",
-          icon: FaReact,
+          icon: TbBrandNextjs,
         },
         {
           text: "Nest.js",
@@ -113,7 +145,7 @@ export function useGetProjectsData() {
       badges: [
         {
           text: "Next.js",
-          icon: FaReact,
+          icon: TbBrandNextjs,
         },
         {
           text: "Typescript",
@@ -181,44 +213,45 @@ export function useGetProjectsData() {
         },
       ],
     },
-    {
-      id: 7,
-      type: "university",
-      title: t("projectsData.fearAndHunger.title", "Fear & Hunger"),
-      image: "fear-hunger.png",
-      description: t(
-        "projectsData.fearAndHunger.description",
-        "Development of a web MMORPG by a team of 4 developers using Vite.js for the frontend, Express.js for the backend with PostgreSQL database management, and Docker."
-      ),
-      repositoryLink: "https://github.com/SBD1/2023.2_Fear_and_Hunger",
-      projectLink: "https://sbd1.github.io/2023.2_Fear_and_Hunger/#/",
-      badges: [
-        {
-          text: "Vite.js",
-          icon: FaReact,
-        },
-        {
-          text: "Typescript",
-          icon: TbBrandTypescript,
-        },
-        {
-          text: "Express",
-          icon: FaNodeJs,
-        },
-        {
-          text: "Postgre",
-          icon: SiPostgresql,
-        },
-        {
-          text: "JavaScript",
-          icon: TbBrandJavascript,
-        },
-        {
-          text: "Docker",
-          icon: FaDocker,
-        },
-      ],
-    },
+    // {
+    //   id: 7,
+    //   type: "university",
+    //   title: t("projectsData.fearAndHunger.title", "Fear & Hunger"),
+    //   image: "fear-hunger.png",
+    //   description: t(
+    //     "projectsData.fearAndHunger.description",
+    //     "Development of a web MMORPG by a team of 4 developers using Vite.js for the frontend, Express.js for the backend with PostgreSQL database management, and Docker."
+    //   ),
+    //   repositoryLink: "https://github.com/SBD1/2023.2_Fear_and_Hunger",
+    //   projectLink: "https://sbd1.github.io/2023.2_Fear_and_Hunger/#/",
+    //   badges: [
+    //     {
+    //       text: "Vite.js",
+    //       icon: FaReact,
+    //     },
+    //     {
+    //       text: "Typescript",
+    //       icon: TbBrandTypescript,
+    //     },
+    //     {
+    //       text: "Express",
+    //       icon: FaNodeJs,
+    //     },
+    //     {
+    //       text: "Postgre",
+    //       icon: SiPostgresql,
+    //     },
+    //     {
+    //       text: "JavaScript",
+    //       icon: TbBrandJavascript,
+    //     },
+    //     {
+    //       text: "Docker",
+    //       icon: FaDocker,
+    //     },
+    //   ],
+    // },
+
     {
       id: 8,
       type: "university",

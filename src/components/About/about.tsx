@@ -71,7 +71,7 @@ export function About() {
         >
           <img
             className="rounded-xl w-full md:w-[320px] lg:w-[400px] shadow-2xl shadow-gray-700"
-            src="foto.jpg"
+            src="linkedin_profile.jpeg"
           />
         </animated.div>
       </div>
