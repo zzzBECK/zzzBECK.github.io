@@ -25,8 +25,7 @@ export function useGetProjectsData() {
       title: t("projectsData.rafaela.title"),
       image: "rafaela.png",
       description: t("projectsData.rafaela.description"),
-      repositoryLink: "https://github.com/zzzBECK/2023.1-GuiaUnB",
-      projectLink: "https://fga-eps-mds.github.io/2023.1-GuiaUnB/",
+      projectLink: "https://lela-drinks.vercel.app",
       badges: [
         {
           text: "Next.js",
