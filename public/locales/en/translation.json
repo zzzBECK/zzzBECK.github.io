@@ -18,23 +18,23 @@
   "projects": "Projects",
   "projectsData": {
     "brasequip": {
-      "description": "Website developed for Brasequip using the RAD methodology for prototyping. The project aims to improve SEO, promote the company and its services, and facilitate customer contact",
+      "description": "Website developed for Brasequip using the RAD methodology for prototyping. The project aims to improve SEO, promote the company and its services, and facilitate customer contact.",
       "title": "Brasequip"
     },
     "fearAndHunger": {
-      "description": "Development of a web-based MMORPG aimed at applying and expanding knowledge in relational databases. Project for the Database 1 course",
+      "description": "Development of a web-based MMORPG aimed at applying and expanding knowledge in relational databases. Project for the Database 1 course.",
       "title": "Fear & Hunger"
     },
     "guiaUnB": {
-      "description": "Mobile application developed to inform students at the University of Brasília (UnB) about their rights as students. Project for the Software Development Methods course",
+      "description": "Mobile application developed to inform students at the University of Brasília (UnB) about their rights as students. Project for the Software Development Methods course.",
       "title": "UnB Guide"
     },
     "iucai": {
-      "description": "Website developed for the University Institute of São Tomé and Príncipe to promote the institution and its courses. It was based on a Figma template and built using Next.js and Tailwind CSS",
+      "description": "Website developed for the University Institute of São Tomé and Príncipe to promote the institution and its courses. It was based on a Figma template and built using Next.js and Tailwind CSS.",
       "title": "IUCAI"
     },
     "mec": {
-      "description": "Website developed for an MEC consultant, aimed at assisting in the calculation of indicators for public education studies across Brazil",
+      "description": "Website developed for an MEC consultant, aimed at assisting in the calculation of indicators for public education studies across Brazil.",
       "title": "MEC consultant"
     },
     "minamualanon": {
@@ -42,7 +42,7 @@
       "title": "MINA MUALA NÓN"
     },
     "echoeasy": {
-      "description": "Mobile app and web platform designed to centralize the client’s (Echocardiographer) original content, streamlining the diagnosis of various cardiovascular diseases through echocardiography.",
+      "description": "Mobile app and web platform designed to centralize the client's (Echocardiographer) original content, streamlining the diagnosis of various cardiovascular diseases through echocardiography.",
       "title": "Echoeasy"
     },
     "songz": {
@@ -50,8 +50,12 @@
       "title": "Songz"
     },
     "sportickets": {
-      "description": "Platform developed for selling tickets to sports events. The project was created for clients in Brasília who organize sports events",
+      "description": "Platform developed for selling tickets to sports events. The project was created for clients in Brasília who organize sports events.",
       "title": "Sportickets"
+    },
+    "rafaela": {
+      "description": "Website developed for Bartender, aimed at promoting her services and facilitating customer contact, with the unique feature of offering personalized menus for each event.",
+      "title": "Rafaela Pedroza"
     }
   },
   "repository": "Repository",

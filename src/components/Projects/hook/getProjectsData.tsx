@@ -3,9 +3,7 @@ import { useTranslation } from "react-i18next";
 import { FaReact } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import {
-  SiDart,
   SiExpo,
-  SiFlutter,
   SiI18Next,
   SiMongodb,
   SiNestjs,
@@ -21,6 +19,29 @@ export function useGetProjectsData() {
   const { t } = useTranslation();
 
   const projectsData: Project[] = [
+    {
+      id: 9,
+      type: "freelance",
+      title: t("projectsData.rafaela.title"),
+      image: "rafaela.png",
+      description: t("projectsData.rafaela.description"),
+      repositoryLink: "https://github.com/zzzBECK/2023.1-GuiaUnB",
+      projectLink: "https://fga-eps-mds.github.io/2023.1-GuiaUnB/",
+      badges: [
+        {
+          text: "Next.js",
+          icon: TbBrandNextjs,
+        },
+        {
+          text: "Tailwind",
+          icon: SiTailwindcss,
+        },
+        {
+          text: "Typescript",
+          icon: TbBrandTypescript,
+        },
+      ],
+    },
     {
       id: 7,
       type: "freelance",
@@ -252,32 +273,32 @@ export function useGetProjectsData() {
     //   ],
     // },
 
-    {
-      id: 8,
-      type: "university",
-      title: t("projectsData.guiaUnB.title", "Guia UnB"),
-      image: "guia-unb.png",
-      description: t(
-        "projectsData.guiaUnB.description",
-        "Development of a mobile app in Dart with Flutter and Firebase by a team of 6 developers to inform UnB students about student rights."
-      ),
-      repositoryLink: "https://github.com/zzzBECK/2023.1-GuiaUnB",
-      projectLink: "https://fga-eps-mds.github.io/2023.1-GuiaUnB/",
-      badges: [
-        {
-          text: "Dart",
-          icon: SiDart,
-        },
-        {
-          text: "Flutter",
-          icon: SiFlutter,
-        },
-        {
-          text: "Firebase",
-          icon: IoLogoFirebase,
-        },
-      ],
-    },
+    // {
+    //   id: 8,
+    //   type: "university",
+    //   title: t("projectsData.guiaUnB.title", "Guia UnB"),
+    //   image: "guia-unb.png",
+    //   description: t(
+    //     "projectsData.guiaUnB.description",
+    //     "Development of a mobile app in Dart with Flutter and Firebase by a team of 6 developers to inform UnB students about student rights."
+    //   ),
+    //   repositoryLink: "https://github.com/zzzBECK/2023.1-GuiaUnB",
+    //   projectLink: "https://fga-eps-mds.github.io/2023.1-GuiaUnB/",
+    //   badges: [
+    //     {
+    //       text: "Dart",
+    //       icon: SiDart,
+    //     },
+    //     {
+    //       text: "Flutter",
+    //       icon: SiFlutter,
+    //     },
+    //     {
+    //       text: "Firebase",
+    //       icon: IoLogoFirebase,
+    //     },
+    //   ],
+    // },
   ];
 
   return { projectsData };

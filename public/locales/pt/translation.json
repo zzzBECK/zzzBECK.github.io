@@ -22,19 +22,19 @@
       "title": "Brasequip"
     },
     "fearAndHunger": {
-      "description": "Desenvolvimento de um MMORPG web com o intuito de aplicar e desenvolver conhecimentos em bancos de dados realacionais. Projeto da disciplina de Banco de Dados 1",
+      "description": "Desenvolvimento de um MMORPG web com o intuito de aplicar e desenvolver conhecimentos em bancos de dados realacionais. Projeto da disciplina de Banco de Dados 1.",
       "title": "Fear & Hunger"
     },
     "guiaUnB": {
-      "description": "Aplicativo móvel desenvolvido com o objetivo de informar os alunos da Universidade de Brasília (UnB) sobre seus direitos como estudantes. Projeto da disciplina Métodos de Desenvolvimento de Software",
+      "description": "Aplicativo móvel desenvolvido com o objetivo de informar os alunos da Universidade de Brasília (UnB) sobre seus direitos como estudantes. Projeto da disciplina Métodos de Desenvolvimento de Software.",
       "title": "Guia UnB"
     },
     "iucai": {
-      "description": "Site desenvolvido para o Instituto Univesitário de São Tomé e Príncipe, com o objetivo de divulgar a instituição e seus cursos. Foi feito a partir de um template do Figma. Possui as versões: 'Português são-tomense' e 'Inglês'",
+      "description": "Site desenvolvido para o Instituto Univesitário de São Tomé e Príncipe, com o objetivo de divulgar a instituição e seus cursos. Foi feito a partir de um template do Figma. Possui as versões: 'Português são-tomense' e 'Inglês'.",
       "title": "IUCAI"
     },
     "mec": {
-      "description": "Site desenvolvido para consultora do MEC, com o objetivo de auxiliar no cálculo de indicadores para estudos sobre a educação pública em todo o Brasil",
+      "description": "Site desenvolvido para consultora do MEC, com o objetivo de auxiliar no cálculo de indicadores para estudos sobre a educação pública em todo o Brasil.",
       "title": "Consultora MEC"
     },
     "minamualanon": {
@@ -52,6 +52,10 @@
     "sportickets": {
       "description": "Plataforma desenvolvida para a venda de ingressos para eventos esportivos. O projeto foi realizado para clientes de Brasília que organizam eventos esportivos",
       "title": "Sportickets"
+    },
+    "rafaela": {
+      "description": "Site desenvolvido para a Bartender, com o objetivo de divulgar seus serviços e facilitar o contato com os clientes com o diferencial de ter cardápios personalizados para cada evento.",
+      "title": "Rafaela Pedroza"
     }
   },
   "repository": "Repositório",
